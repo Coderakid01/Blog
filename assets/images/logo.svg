@@ -1,0 +1,12 @@
+<svg width="137" height="22" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="139" height="24" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" x1="52.931901" y1="7.693907" x2="65.431843" y2="22.466559" id="svg_2" stroke-linejoin="null" stroke-linecap="null" stroke="null"/>
+  <text style="cursor: move;" fill="#000000" stroke-width="0" stroke-opacity="null" x="0.79886" y="23.123442" id="svg_4" font-size="24" font-family="Arvo, sans-serif" text-anchor="start" xml:space="preserve" transform="rotate(-0.029748130589723587 46.00529861450331,11.245011329649493) matrix(1.1818897270579853,0,0,1.268167501306493,-0.9286510136933919,-7.222677898796546) " stroke="null" font-weight="bold">A K I D</text>
+ </g>
+</svg>
