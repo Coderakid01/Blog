@@ -1,3 +1,3 @@
-# Blog 2.0
+# Blog 2.5
 My Digital CV also my Digital Folio
 
