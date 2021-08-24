@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,14 +11,14 @@
   	<meta name="format-detection" content="telephone=no">
       <meta property="og:locale" content="en_US">
       <meta property="og:type" content="website">
-      <meta property="og:title" content="Akid | Techy Geek in Electronics and IoT">
-      <meta property="og:description" content="My Projects Portfolio.">
+      <meta property="og:title" content="Akid | IoT Enthusiast">
+      <meta property="og:description" content="I want to make things that make a difference.">
       <meta property="og:url" content="akid.com">
-      <meta property="og:site_name" content="Akid | Techy Geek in Electronics and IoT">
+      <meta property="og:site_name" content="Akid | IoT Enthusiast">
       <meta property="article:publisher" content="akid.com">
       <meta property="og:image" content="">
       <meta name="author" content="Akid">
-      <meta name="description" content="My Projects Portfolio.">
+      <meta name="description" content="I want to make things that make a difference.">
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="144x144" href="assets\images\favicons\apple-touch-icon-144x144.png">
@@ -42,7 +42,7 @@
 	</div>
 
     <!-- Top -->
-	<nav class="navbar">
+	<nav class="navbar navbar--white navbar-change">
         <div class="mr-auto logo-container">
             <a class="logo-link" href="index.html">
                 <img class="logotype logotype__front" src="assets\images\logo.svg" alt="ARTEM.">
@@ -57,108 +57,128 @@
 	</nav>
 	<!-- /Top -->
 
-    <!-- News -->
-	<div class="container">
-		<header class="header-page">
-            <h1 class="title title--h1 js-lines-l">Projects.</h1>
-			<div class="select js-down">
-			    <span class="placeholder">Select category</span>
-			    <ul class="filters">
-			        <li class="filters__item"><h6 class="title title--overhead filters-title">Categories</h6></li>
-				    <li class="filters__item active" data-filter="*"><a class="filters__link active" href="#filter">All</a></li>
-				    <li class="filters__item" data-filter=".category-design"><a class="filters__link" href="#filter">Prototype</a></li>
-				    <li class="filters__item" data-filter=".category-branding"><a class="filters__link" href="#filter">IT Support</a></li>
-				    <li class="filters__item" data-filter=".category-iot"><a class="filters__link" href="#filter">IoT Projects</a></li>
-			    </ul>
-			    <input type="hidden" name="changemetoo">
+    <!-- Intro -->
+	<header class="header-page header-fullscreen header-page--gutterBottom overlay overlay--80">
+    <div class="wrap-bg">
+      <div class="js-image jarallax" data-image="assets/img/source.gif"></div>
+    </div>
+		<div class="header-page__container-fluid align-items-end js-opacity">
+			<div class="row no-gutters">
+				<div class="col-md-12 col-lg-6">
+					<div class="tail header-page__description">Story is not just what it looks like and feels like. Experience is how it works.</div>
+				</div>
+				<div class="col-md-12 col-lg-6 text-lg-right">
+					<a class="btn-link btn-link--circle-right" href="!#start">THIS IS MY PROJECT JOURNEY<i class="circle circle--white circle--right icon-down-open"></i></a>
+				</div>
 			</div>
-		</header>
+		</div>
+	</header>
+    <!-- /Intro -->
 
-	    <div class="grid-news masonry">
-            <div class="gutter-sizer"></div>
-		    <!-- Prototype -->
-		    <figure class="item-project item-masonry js-block category-design">
-			    <a href="https://virtualmachine-01.firebaseapp.com/" class="onHover">
-				    <img class="item-news__image" src="assets\img\image_project_20.jpg" alt="Project">
-				    <figcaption class="onHover__details">
-					    <div class="client">Browser-Based Virtual Machine</div>
-					    <h6 class="title title--h5">Run some of the nostalgic Windows Operating System on the cloud</h6>
-					</figcaption>
-				</a>
-			</figure>
-		    <!-- /Prototype -->
+	<article class="caption-single container">
+        <div class="row">
 
-        <!-- Post -->
-		    <figure class="item-project item-masonry js-block category-app">
-			    <a href="projects_single.html" class="onHover">
-				    <div class="onHover__details">
-					    <div class="client">Chat2Chat</div>
-					    <h6 class="title title--h5">A simple chat web app using firebase</h6>
-					</div>
-				    <figcaption class="item-project__figure">
-					    <img class="item-news__image" src="assets\img\image_project_18.jpg" alt="Project">
-				    </figcaption>
-				</a>
-			</figure>
-		    <!-- /Post -->
+			<div class="col-12 col-lg-9">
+				<h2 class="title title--h2 js-lines"><u><em>Academic Projects and Research</em></u></h2>
+			</div>
+		</div>
 
-		    <!-- IT Support -->
-		    <figure class="item-project item-masonry js-block category-iot">
-			    <a href="https://github.com/Coderakid01/WSN-One-To-One-Hibiscus-Sense" class="onHover">
-				    <img class="item-news__image" src="assets\img\poster1.jpg" alt="Project">
-				    <figcaption class="onHover__details">
-					    <div class="client">Single Hop WSN Project</div>
-					     <h6 class="title title--h5">Simple WSN One to One Communication Project by using Built-in Sensors of Hibiscus Sense to be send to the ESP32 or Another Hibiscus Sense.</h6>
-					</figcaption>
-				</a>
-			</figure>
-		    <!-- /IT Support -->
+	
+	<div class="container-fluid container-no-gutters mb--2">
+		<div class="row">
+			<!-- itemCard -->
 
-        <!-- Prototype -->
-		    <figure class="item-project item-masonry js-block category-iot">
-			    <a href="https://github.com/Coderakid01/WSN-Two-Way-Hibiscus-Sense" class="onHover">
-				    <img class="item-news__image" src="assets\img\poster2.jpg" alt="Project">
-				    <figcaption class="onHover__details">
-					    <div class="client">Single Hop Transceiver WSN</div>
-					    <h6 class="title title--h5">Simple WSN Two Way Communication Project by using Built-in Sensors of Hibiscus Sense that will communicate each other.</h6>
-					</figcaption>
-				</a>
-			</figure>
-		    <!-- /Prototype -->
+				<div class="itemCard__header">
+			<div class="col-12 col-lg-12">
+				<h2 class="title title--h5 js-lines">Wireless MESH Ad-Hoc Network Wildfire Early Warning System by using applied rules based on FDRS Malaysia Standard</h2>
+				<div class="description js-block">
+					<h3>Advisor : En HASRULNIZAM BIN HASHIM (KKTM PJ)</h3>
+					<p class="paragraph"><u>Executive Summary :</u></p>
+				    <p class="paragraph">Forests, one of the most valuable and necessary resources, a natural habitat to animals and forest products are vital in our lives in many direct and indirect ways. However, Wildfires can burn acres of land and destroy everything in their paths in mere minutes. Wildfire destroys homes, animals, trees and plants, wildlife as well. Due to their uncontrolled unpredictable rapid growth and behaviors, they can quickly become difficult to contain, leading to significant loss of lives, wildlife and property. The study proposes a MESH Network prototype where the Transceiver would communicate each other in receive and push data to the IoT Middleware FAVORIOT with reading scale calculated theory from Malaysia Fire Danger Rating System.</p>
 
-        <!-- IT Support -->
-        <figure class="item-project item-masonry js-block category-branding">
-          <a href="#" class="onHover">
-            <img class="item-news__image" src="assets\img\image_project_17.jpg" alt="Project">
-            <figcaption class="onHover__details">
-              <div class="client">SMK Tambun IT Teaching</div>
-              <!-- <h6 class="title title--h5">Advertising booklet</h6> -->
-          </figcaption>
-        </a>
-      </figure>
-        <!-- /Project -->
+			</div>
+				</div>
+			</div>
+			
+			<br>
+			
+			<div class="itemCard__header">
+			<div class="col-12 col-lg-12">
+				<h2 class="title title--h5 js-lines">Single Hop Wireless Sensor Network Water Quality Monitoring System by using applied rules based on NWQI Malaysia Standard</h2>
+				<div class="description js-block">
+					<h3>Advisor : Dr MUHAMMAD SAUFY ROHMAD (SMRi UiTM)</h3>
+					<p class="paragraph"><u>Executive Summary :</u></p>
+				    <p class="paragraph">Water Pollution nowadays can give a significant impact towards the local and nationwide in various aspect for instance health issues. The study proposes an IoT Monitoring solutions with Wireless Sensor Network as the Network communications with selected sensory to read the parameter of the water quality based on the Malaysia NWQI Standards.</p>
 
-        <!-- Prototype -->
-        <figure class="item-project item-masonry js-block category-design">
-          <a href="https://github.com/Coderakid01/WSN_HibiscusSense_Feat_Favoriot" class="onHover">
-            <img class="item-news__image" src="https://github.com/Coderakid01/Medias/blob/main/poster1.jpg" alt="Project">
-            <figcaption class="onHover__details">
-              <div class="client">WSN Hibiscus Sense Featuring FAVORIOT IoT Platform</div>
-              <h6 class="title title--h5">Wireless Sensor Network (One Way Communications via One to One) By Using Hibiscus Sense ESP32 Based Microcontroller with built-in sensor to be upload to IoT Platform FAVORIOT</h6>
-          </figcaption>
-        </a>
-      </figure>
-        <!-- /Prototype -->
+			</div>
+				</div>
+			</div>
+		</div>
+	</article>
 
 		</div>
 	</div>
-    <!-- /News -->
+    <!-- /Team -->
+	
+	<!-- Team -->
+	<article class="caption-single container">
+        <div class="row">
 
-	<!-- Footer -->
+			<div class="col-12 col-lg-9">
+				<h2 class="title title--h2 js-lines"><u><em>IoT Projects</em></u></h2>
+			</div>
+		</div>
+	</article>
+	<div class="container-fluid container-no-gutters mb--2">
+		<div class="row">
+		
+			<!-- /itemCard -->
+			<div class="col-12 col-sm-6 col-lg-4 col-xl-3 itemCard">
+				<div class="itemCard__header">
+					<div class="text-center">
+					<img src="assets\img\HIBISCUSFAVORIOT.png" class="" alt="HIBISCUSFAVORIOT">					
+					<h4 class="title title--h6 itemCard__title">FAVORIOT with Hibiscus Sense Tutorial Collection</h4>
+					<h5 class="title--overhead"><a href="https://github.com/Coderakid01/FAVORIOT-With-Hibiscus-Tutorial-Collection" class="btn btn-info btn-lg" target="_blank">Click Here to explore</a></h5>
+				</div>
+			</div>
+		</div>
+			
+      <!-- itemCard -->
+			<div class="col-12 col-sm-6 col-lg-4 col-xl-3 itemCard">
+				<div class="itemCard__header">
+					<div class="text-center">
+					<img src="assets\img\HIBISCUS.png" class="" alt="HIBISCUS">
+					<h4 class="title title--h6 itemCard__title">Hibiscus Sense Wireless Sensor Network Tutorial Collection</h4>
+					<h5 class="title--overhead"><a href="https://github.com/Coderakid01/Hisbiscus-WSN-Collection" class="btn btn-info btn-lg" target="_blank">Click Here to explore</a></h5>
+				</div>
+			</div>
+		</div>			
+
+			<!-- /itemCard -->
+
+	<div class="col-12 col-sm-6 col-lg-4 col-xl-3 itemCard">
+				<div class="itemCard__header">
+					<div class="text-center">
+					<img src="assets\img\FAVORIOT.png" class="" alt="FAVORIOT">
+					<h4 class="title title--h6 itemCard__title">FAVORIOT IoT Platform Tutorial Collection</h4>
+					<h5 class="title--overhead"><a href="https://github.com/Coderakid01/FAVORIOT-Tutorial-Collection" class="btn btn-info btn-lg" target="_blank">Click Here to explore</a></h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <!-- /Team -->
+
+
+  <!-- Footer -->
 	<footer class="footer">
-
+	    <div class="container-fluid">
+		    <div class="row">
+		    </div>
+		</div>
 	</footer>
 	<!-- /Footer -->
+
 
 	<!-- Menu -->
   <div class="menu">
@@ -168,7 +188,8 @@
           <li><a class="menu-list__item" href="projects.html"><span>Projects</span></a></li>
 			    <li><a class="menu-list__item" href="contact.html"><span>Contact</span></a></li>
 			    <li><a class="menu-list__item" href="https://www.youracclaim.com/users/muhammad-aiman-akid-bin-azreshah" target="_blank"><span>Digital Badge(Acclaim)</span></a></li>
-			    <li><a class="menu-list__item" href="https://drive.google.com/file/d/1WSvlGZaE27KP2BRzduIu4VNm-_a9KC3Y/view?usp=sharing" target="_blank"><span>Resume</span></a></li></ul>
+			    <li><a class="menu-list__item" href="https://drive.google.com/file/d/1WSvlGZaE27KP2BRzduIu4VNm-_a9KC3Y/view?usp=sharing" target="_blank"><span>Resume</span></a></li>
+			</ul>
 		</div>
 
 	</div>
